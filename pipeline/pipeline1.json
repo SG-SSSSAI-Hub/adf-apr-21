@@ -65,11 +65,11 @@
 		"parameters": {
 			"fileName": {
 				"type": "string",
-				"defaultValue": "planes.csv"
+				"defaultValue": "@dataset().fileName"
 			},
 			"tableName": {
 				"type": "string",
-				"defaultValue": "Planes"
+				"defaultValue": "@dataset().tableName"
 			}
 		},
 		"annotations": []
