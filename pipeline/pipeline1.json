@@ -44,10 +44,7 @@
 						"referenceName": "inputCSV",
 						"type": "DatasetReference",
 						"parameters": {
-							"fileName": {
-								"value": "@pipeline().parameters.fileName",
-								"type": "Expression"
-							}
+							"fileName": "@pipeline().parameters.fileName"
 						}
 					}
 				],
@@ -67,10 +64,12 @@
 		],
 		"parameters": {
 			"fileName": {
-				"type": "string"
+				"type": "string",
+				"defaultValue": "planes.csv"
 			},
 			"tableName": {
-				"type": "string"
+				"type": "string",
+				"defaultValue": "Planes"
 			}
 		},
 		"annotations": []
