@@ -46,7 +46,7 @@
 				"userProperties": [],
 				"typeProperties": {
 					"items": {
-						"value": "@activity('Get Metadata1').output.childitems",
+						"value": "@activity('Get Metadata1').output.lastModified",
 						"type": "Expression"
 					},
 					"isSequential": false,
@@ -70,7 +70,7 @@
 		],
 		"variables": {
 			"fileName": {
-				"type": "String"
+				"type": "Array"
 			}
 		},
 		"annotations": []
