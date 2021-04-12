@@ -49,10 +49,30 @@
 						"value": "@activity('Get Metadata1').output.childitems",
 						"type": "Expression"
 					},
-					"isSequential": false
+					"isSequential": false,
+					"activities": [
+						{
+							"name": "Set variableforeach",
+							"type": "SetVariable",
+							"dependsOn": [],
+							"userProperties": [],
+							"typeProperties": {
+								"variableName": "fileName",
+								"value": {
+									"value": "@item().name",
+									"type": "Expression"
+								}
+							}
+						}
+					]
 				}
 			}
 		],
+		"variables": {
+			"fileName": {
+				"type": "String"
+			}
+		},
 		"annotations": []
 	}
 }
