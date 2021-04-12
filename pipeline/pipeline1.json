@@ -64,12 +64,10 @@
 		],
 		"parameters": {
 			"fileName": {
-				"type": "string",
-				"defaultValue": "@dataset().fileName"
+				"type": "string"
 			},
 			"tableName": {
-				"type": "string",
-				"defaultValue": "@dataset().tableName"
+				"type": "string"
 			}
 		},
 		"annotations": []
