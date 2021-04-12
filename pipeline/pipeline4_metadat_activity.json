@@ -20,7 +20,7 @@
 						"type": "DatasetReference"
 					},
 					"fieldList": [
-						"childItems"
+						"lastModified"
 					],
 					"storeSettings": {
 						"type": "FileServerReadSettings",
@@ -59,7 +59,7 @@
 							"typeProperties": {
 								"variableName": "fileName",
 								"value": {
-									"value": "@item().name",
+									"value": "@item().lastModified",
 									"type": "Expression"
 								}
 							}
