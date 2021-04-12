@@ -7,8 +7,7 @@
 		},
 		"parameters": {
 			"tableName": {
-				"type": "string",
-				"defaultValue": "Planes "
+				"type": "string"
 			}
 		},
 		"annotations": [],
