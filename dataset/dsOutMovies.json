@@ -10,6 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
+				"fileName": "moviesout",
 				"container": "outputdataflow1"
 			},
 			"columnDelimiter": ",",
